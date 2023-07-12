@@ -1,7 +1,7 @@
 import PyPDF2
 
-input_file = 'tarak rupesh.pdf'
-output_file = 'tarakResume.pdf'
+input_file = '' # input file path
+output_file = '' #outpu file path
 page_number_to_remove = 1  # Index starts from 0
 
 with open(input_file, 'rb') as file:
